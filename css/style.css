@@ -193,3 +193,9 @@ button {
     align-self: flex-start;
     margin-top: -12px;
 }
+
+.login {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
