@@ -1,11 +1,69 @@
+@font-face {
+    font-family: 'norse';
+    src: url('../fonts/Norse-Bold.otf');
+}
+
 body,
 html {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    display: flex;
 }
 
 .left {
     background-image: url(../imgs/bg.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    flex: 0.5;
+}
+
+.mid {
+    display: flex;
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 12px;
+
+}
+
+h1 {
+    font-family: 'norse';
+    font-size: 7rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
