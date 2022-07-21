@@ -10,22 +10,28 @@
 </head>
 <body>
     <div class="left">
-        <header></header>
-        <footer></footer>
+        <header>
+            <img src="imgs/logo.png">
+            <h1>ODIN</h1>
+        </header>
+        <footer>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></footer>
     </div>
     <div class="right">
         <div class="content"><p>This is not a real online service! You know you need something Like this in your life to hep you realize your deepest dreams. </br>Sign up <span class="ital">now</span> to get started.</p><p>You <span class="ital">know</span> you want to.</p></div>
         <form action="#" method="post">
             <div class="form-group">
                 <label for="firstName">FIRST NAME</label>
-                <input type="text" name="firstName" id="firstName">
+                <input type="text" name="firstName" id="firstName" required>
                 <label for="lastName">LAST NAME</label>
-                <input type="text" name="lastName" id="lastName">
-                <label for="email">EMAIL</label><input type="email" name="email" id="email">
+                <input type="text" name="lastName" id="lastName" required>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
                 <label for="phone">PHONE NUMBER</label>
-                <input type="tel" name="phone" id="phone">
-                <label for="password">PASSWORD</label><input type="password" name="password" id="password">
-                <label for="confirm">CONFIRM PASSWORD</label><input type="password" name="confirm" id="confirm">
+                <input type="tel" name="phone" id="phone" required>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm" id="confirm" required>
             </div>
             <button type="submit">Create Account</button>
         </div>
